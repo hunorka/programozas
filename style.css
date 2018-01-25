@@ -1,0 +1,95 @@
+/*csslint fallback-colors: false, order-alphabetical: false, box-model: false*/
+
+body {
+    background: rgb(72, 83, 112);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-menu-container 
+{
+ 
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+
+
+main
+{
+  width: 600px;
+}
+
+.menu 
+{
+  list-style: none;
+   
+    border-bottom: 3px solid #68d2c3;
+    
+        
+}
+
+.menu-item 
+{
+
+  display: inline-block;
+  padding: 20px 20px ;
+  color: #e9e4ff;
+  text-align: center;
+  position: relative;
+    
+    
+}
+.menu-item:hover
+{
+    background-color: rgba(41,47,48,.2);
+    cursor: pointer;
+}
+
+.submenu 
+{
+  list-style: none;
+  display: none;
+  position: absolute;
+  left: -40px;
+  top: 59px;
+}
+
+.menu-item:hover > .submenu 
+{
+  display: block
+}
+
+
+.submenu-item 
+{
+  padding: 15px 20px;
+  width: 120px;
+  background-color: rgba(41,47,48,.2);
+  color: white;
+  text-align: center;
+    
+}
+
+
+.submenu-item:hover 
+{
+  background-color: rgba(41,47,48,.7);
+}
+
+img
+{
+    float: right ;
+}
+header
+{
+  width: 400px ;
+   
+}
+.main-content 
+{
+    margin: 0 auto;
+    width: 800px;
+    color: #e9e4ff;
+    
+}
